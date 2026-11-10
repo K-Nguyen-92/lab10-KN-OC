@@ -18,16 +18,14 @@ def square_root(a):
         if a < 0:
             raise ValueError
         return math.sqrt(a)
-    except ValueError as e:
-        print(f"Error in square_root: {e}")
+    except ValueError:
         raise
 
 
 def hypotenuse(a, b):
     try:
         return math.hypot(a, b)
-    except TypeError as e:
-        print(f"Error in hypotenuse: {e}")
+    except TypeError:
         raise
 
 
@@ -48,13 +46,16 @@ def div(a, b):
         raise ZeroDivisionError("Cannot divide by zero")
     return b / a
 
+
 def log(a, b):
     if a <= 0 or a == 1 or b <= 0:
         raise ValueError("Invalid logarithm input")
     return math.log(b, a)
 
+
 def exp(a, b):
-    return a ** b
+    return a**b
+
 
 def subtract(a, b):
     return a - b
@@ -80,4 +81,3 @@ def logarithm(a, b):
 
 def exponent(a, b):
     return a**b
-
