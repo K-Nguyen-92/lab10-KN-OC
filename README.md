@@ -1,8 +1,25 @@
-# How to use this Lab 11 repository template:
-## Steps:
+# Python Calculator and Test Module (Lab 10)
 
-- In the top right corner, there is a green button that says "Use this template". Click on this.
-- Click "Create in a new repository"
-- Name the new repository lab11-[Partner1 Initials]-[Partner2 Initials]
-    **- Make sure to set this new repository as Public!**
-- Click "Create repository"
+A Python-based mathematical calculator library equipped with unit tests .
+
+This project was developed collaboratively as part of **Lab 10** by **Khoa Nguyen** and **Octavia Chambers**
+
+The objective of this lab is to understand the purpose and usefulness of version control via Git and Github
+
+---
+
+## 👥 Collaborators
+
+- **Partner 1:** Khoa Nguyen
+- **Partner 2:** Octavia Chambers
+
+---
+
+## 📁 Repository Structure
+
+```text
+.
+├── calculator.py        
+├── test_calculator.py  
+└── README.md          
+```
