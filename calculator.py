@@ -13,24 +13,6 @@ import math
 
 
 # First example
-def square_root(a):
-    try:
-        if a < 0:
-            raise ValueError
-        return math.sqrt(a)
-    except ValueError as e:
-        print(f"Error in square_root: {e}")
-        raise
-
-
-def hypotenuse(a, b):
-    try:
-        return math.hypot(a, b)
-    except TypeError as e:
-        print(f"Error in hypotenuse: {e}")
-        raise
-
-
 def add(a, b):
     return a + b
 
